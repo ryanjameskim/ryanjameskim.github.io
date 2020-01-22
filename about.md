@@ -1,4 +1,4 @@
-# About
+# About Me
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+I am a former sell-side FX Options trader with an interest in microbiology, trading, and other data science topics.
 
