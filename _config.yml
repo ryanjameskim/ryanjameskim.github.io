@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Edit _config.yml to set your title!
-description: Personal blog for data science projects and thoughts
+title: Data Science Blog
+description: Personal blog for data science projects and topics involving trading and microbiology
 github_username: ryanjameskim
 
 # Email and twitter are optional:
