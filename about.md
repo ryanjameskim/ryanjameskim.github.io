@@ -1,4 +1,3 @@
 # About Me
 
-Microbiology, trading, and other data science topics
-
+Data science and trading enthusiast.
