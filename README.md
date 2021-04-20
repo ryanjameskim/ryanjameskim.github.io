@@ -1,3 +1,4 @@
-# Your blog
+# Repository for ryanjameskim.com
 
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+Click *_config.yml* above to get started and fill in the details.
+Click *index.md* and edit it to start creating your home page.
