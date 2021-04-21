@@ -4,4 +4,4 @@ Blackrock and other ETF providers are required to release their holding and othe
 
 Something that really surprised me was how often I had to force python to slow down so the website could load. I was banging my head against the wall for a couple hours even though this should have taken only a few minutes.
 
-https://github.com/ryanjameskim/public/blob/master/210331%20Selenium%20BR%20ishares%20downloader.py
+[Code Link](https://github.com/ryanjameskim/public/blob/master/210331%20Selenium%20BR%20ishares%20downloader.py)
