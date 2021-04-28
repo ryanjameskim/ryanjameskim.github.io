@@ -4,7 +4,10 @@ I reworked the ETF2Vec code to run much quicker in batches and also saved the co
 
 ![AAPL visualization](https://github.com/ryanjameskim/ryanjameskim.github.io/blob/0f1e139efb926ca1c0d5bcac4dd003b373a542ab/images/ETF2VecAAPLexample.PNG)
 
-All 10 of AAPL's nearest neighbors (cosine):
+All 10 of AAPL's nearest neighbors (cosine).
+
+
+
 ![AAPL 10 nearest neighbors](https://github.com/ryanjameskim/ryanjameskim.github.io/blob/master/images/ETF2VecAAPLexamplenearest.PNG)
 
 skills: _keras_, embedding, Word2Vec, tensorflow embeddings projector, google colabs
