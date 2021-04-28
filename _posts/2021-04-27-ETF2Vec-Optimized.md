@@ -6,9 +6,11 @@ I reworked the ETF2Vec code to run much quicker in batches and also saved the co
 
 All 10 of AAPL's nearest neighbors (cosine).
 
+![AAPL 10 nearest neighbors]({{ site.baseurl }}/images/ETF2VecAAPLexamplenearest.PNG)
+
 
 skills: _keras_, embedding, Word2Vec, tensorflow embeddings projector, google colabs
 
-[Jupyter Notebook]({{ site.baseurl }}/images/ETF2VecAAPLexamplenearest.PNG)
+[Jupyter Notebook](https://github.com/ryanjameskim/public/blob/master/210427%20ETF2Vec%20Batch%20Implementation.ipynb)
 
 [Visualization](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/ryanjameskim/0e408ac0fac14a2a811a4979d22a3715/raw/2ad177885ee9109a74ce4e3163a289845559a4ea/etf2vecjson.json)
