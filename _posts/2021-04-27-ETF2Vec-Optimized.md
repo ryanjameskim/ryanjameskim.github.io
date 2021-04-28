@@ -2,13 +2,10 @@
 
 I reworked the ETF2Vec code to run much quicker in batches and also saved the cosine similarity test to the end. I used Tensorflow's Embedding visualization tool to look at the data. Below you can see the visualization for AAPL, Apple Inc.'s vector reduced down to three dimensions using PCA. Its nearest neighbors are highlighted and include names like Google (GOOG) and Amazon (AMZN), as might be expected.
 
-![AAPL visualization](https://github.com/ryanjameskim/ryanjameskim.github.io/blob/ab6223a158ae77ab7dfc8be76194c5e7aba8a696/images/ETF2VecAAPLexample.PNG)
+![AAPL visualization]({{ site.baseurl }}/images/ETF2VecAAPLexamplenearest.PNG)
 
 All 10 of AAPL's nearest neighbors (cosine).
 
-
-
-![AAPL 10 nearest neighbors](https://github.com/ryanjameskim/ryanjameskim.github.io/blob/master/images/ETF2VecAAPLexamplenearest.PNG)
 
 skills: _keras_, embedding, Word2Vec, tensorflow embeddings projector, google colabs
 
