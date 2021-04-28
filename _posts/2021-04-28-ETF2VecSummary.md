@@ -1,4 +1,4 @@
-#ETF2Vec Midpoint Summary
+##ETF2Vec Midpoint Summary
 
 Originally posted to the NYC Python Discord Chat.
 
