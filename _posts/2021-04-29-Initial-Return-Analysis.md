@@ -14,9 +14,10 @@ For instance, perhaps we wanted to compare the YTD return performance of SOXX, t
 
 The SOXX weighted vector is closest to these 15 stocks: (1) AVGO\*, (2) NVDA\*, (3) INTC\*, (4) AMAT\*, (5) TXN\*, (6) ALLE, (7) SLM, (8) SCHW, (9) FHN, (10) CTRN, (11) AMCR, (12) VRSK, (13) PFE, (14) TGT, (15)  RGA. Starred\* names are also in the original ETF. As seen, while a third of the names are semi-conductor names, the majority are outside the sector, such as TGT, Target. This is because while sector is clearly a contributing selection factor, other qualities combine within 128 dimensions to influence stock selection. It is worth noting though that before now, no previous return data was used in the ETF2Vec embedding process, making this less of a problem of data mining and more of an issue of explainability in terms of selection dimensionality.
 
-The equal weight performance of this 15 stock portfolio outperformed the SOXX return by nearly 13% (26.6% versus 14.0%) and the portfolio's standard deviation of returns was more than 1% lower than the ETF's (2.4% versus 1.3%).
+The equal weight YTD performance of this 15 stock portfolio (to 28Apr2021) outperformed the SOXX return by nearly 13% (26.6% versus 14.0%) and the portfolio's standard deviation of returns was more than 1% lower than the ETF's (2.4% versus 1.3%).
 
-Here is a list of all such ETF's in which the blended portfolio of similar stocks had a lower standard deviatin than the ETF itself, but achieved a higher cumulative return.
+Here is a list of all such ETF's in which the blended portfolio of similar stocks had a lower standard deviatin than the ETF itself, but achieved a higher cumulative return. The natural next question is the reverse, given a portfolio of stocks, can we replace the individual holdings with a single or a handful of ETFs? That will come next.
+
 
 |      	| Name                                                	| ETF CumReturn 	| Blended Stock CumReturn 	| ETF STD 	| Blended STD 	|
 |------	|-----------------------------------------------------	|---------------	|-------------------------	|---------	|-------------	|
