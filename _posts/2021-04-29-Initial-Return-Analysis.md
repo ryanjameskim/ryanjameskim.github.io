@@ -1,5 +1,7 @@
 # Initial ETF Return and STD analysis
 
+[Code](https://github.com/ryanjameskim/public/blob/master/210428%20ETF%20v%20Vector%20Return%20comparison.py)
+
 Why do we want to represent ETF stock selection as a vector in the first place?
 
 * We can numerically compare two stocks using cosine similarity to group certain kinds of stocks together in non-obvious ways. For instance, in a [previous post](https://ryanjameskim.com/2021/04/27/ETF2Vec-Optimized.html), we showed that Apple clustered near other big cap technology names like AMZN and GOOG, but also was similar to non-obvious names like Berkshire Hathaway, likely because of its large market cap.
@@ -10,22 +12,7 @@ Why do we want to represent ETF stock selection as a vector in the first place?
 
 For instance, perhaps we wanted to compare the YTD return performance of SOXX, the iShares PHLX Semiconductor ETF against a basket of 15 stocks closest to the weighted sum of its components. Maybe the idea is we would rather buy 15 of the closest stocks to get some benefits of diversification but desire increased concentration.
 
-The SOXX weighted vector is closest to these 15 stocks:
-Top Stock 1     AVGO
-Top Stock 2     NVDA
-Top Stock 3     INTC
-Top Stock 4     AMAT
-Top Stock 5      TXN
-Top Stock 6     ALLE
-Top Stock 7      SLM
-Top Stock 8     SCHW
-Top Stock 9      FHN
-Top Stock 10    CTRN
-Top Stock 11    AMCR
-Top Stock 12    VRSK
-Top Stock 13     PFE
-Top Stock 14     TGT
-Top Stock 15     RGA
+The SOXX weighted vector is closest to these 15 stocks: (1) AVGO, (2) NVDA, (3) INTC, (4) AMAT, (5) TXN, (6) ALLE, (7) SLM, (8) SCHW, (9) FHN, (10) CTRN, (11) AMCR, (12) VRSK, (13) PFE, (14) TGT, (15)  RGA. As you can see, while there are many semiconductor names in the list, there are other outliers like TGT, Target, as well.
 
 The equal weight performance of this 15 stock portfolio outperformed the SOXX return by nearly 13% (26.6% versus 14.0%) and the portfolio's standard deviation of returns was more than 1% lower than the ETF's (2.4% versus 1.3%).
 
@@ -62,6 +49,4 @@ Here is a list of all such ETF's in which the blended portfolio of similar stock
 | IHAK 	| iShares-Cybersecurity-and-Tech-ETF                  	| 2.68          	| 13.18                   	| 1.56    	| 1.53        	|
 | IEHS 	| iShares-Evolved-U.S.-Healthcare-Staples-ETF         	| 10.26         	| 20.5                    	| 0.9     	| 0.88        	|
 | IGF  	| iShares-Global-Infrastructure-ETF                   	| 6.29          	| 16.03                   	| 0.86    	| 0.84        	|
-
-[Code](https://github.com/ryanjameskim/public/blob/master/210428%20ETF%20v%20Vector%20Return%20comparison.py)
 
