@@ -12,7 +12,7 @@ Why do we want to represent ETF stock selection as a vector in the first place?
 
 For instance, perhaps we wanted to compare the YTD return performance of SOXX, the iShares PHLX Semiconductor ETF against a basket of 15 stocks closest to the weighted sum of its components. Maybe the idea is we would rather buy 15 of the closest stocks to get some benefits of diversification but desire increased concentration.
 
-The SOXX weighted vector is closest to these 15 stocks: (1) AVGO, (2) NVDA, (3) INTC, (4) AMAT, (5) TXN, (6) ALLE, (7) SLM, (8) SCHW, (9) FHN, (10) CTRN, (11) AMCR, (12) VRSK, (13) PFE, (14) TGT, (15)  RGA. As you can see, while there are many semiconductor names in the list, there are other outliers like TGT, Target, as well.
+The SOXX weighted vector is closest to these 15 stocks: (1) AVGO, (2) NVDA, (3) INTC, (4) AMAT, (5) TXN, (6) ALLE, (7) SLM, (8) SCHW, (9) FHN, (10) CTRN, (11) AMCR, (12) VRSK, (13) PFE, (14) TGT, (15)  RGA. As you can see, while there are many semiconductor names in the list, there are other outliers like TGT, Target, as well. This is because while sector is clearly a separating factor, other qualities combine within 128 dimensions to describe stock selection.
 
 The equal weight performance of this 15 stock portfolio outperformed the SOXX return by nearly 13% (26.6% versus 14.0%) and the portfolio's standard deviation of returns was more than 1% lower than the ETF's (2.4% versus 1.3%).
 
